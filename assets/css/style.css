@@ -1,0 +1,94 @@
+:root {
+  --bg-color: #205e62;
+  --primary-color: #337f89;
+  --secondary-color: #009688;
+  --white: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--bg-color) !important;
+  color: var(--white) !important;
+}
+
+.bg-green {
+  background-color: var(--primary-color) !important;
+}
+
+.green-light {
+  background-color: var(--secondary-color) !important;
+}
+
+.btn-green-light {
+  background-color: var(--secondary-color) !important;
+}
+
+.navbar-brand {
+  letter-spacing: 0.1rem;
+}
+
+.fs-09r {
+  font-size: 0.9rem;
+}
+
+.input-group .form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid #dee2e6;
+}
+
+.form-input::placeholder {
+  font-size: 14px;
+  opacity: 1;
+}
+
+.fs-0875r {
+  font-size: 0.875rem;
+}
+
+.text-green {
+  color: var(--primary-color) !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--primary-color);
+  border-color: var(--bg-color);
+}
+
+.brand {
+  width: 5rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content {
+  max-width: 1000px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dee2e6;
+  border-radius: 6px;
+}
+
+@media (min-width: 992px) {
+  .brand {
+    width: 6rem;
+  }
+}
+
+@media screen and (min-width: 467px) and (max-width: 992px) {
+  .content {
+    max-width: 467px;
+  }
+}
