@@ -86,78 +86,62 @@
             class="d-lg-flex justify-content-between gap-5"
             style="margin-bottom: 2.5rem"
           >
-            <div class="mb-4 mb-lg-0">
-              <div class="text-center text-lg-start">
-                <img
-                  class="brand"
-                  src="assets/images/logo-small.svg"
-                  alt="Brand"
-                />
-              </div>
-              <h1 class="text-white mt-4 mt-lg-2">Menu Login</h1>
-              <span class="text-white"
-                >Silahkan Login untuk melanjutkan ke dalam Aplikasi</span
+            <div class="mb-4 mb-lg-0 text-center text-lg-start">
+              <div
+                class="d-flex d-lg-none align-items-center justify-content-between"
               >
+                <img class="" src="assets/images/logo-small.svg" alt="Brand" />
+                <h5 class="fs-6 m-0 p-0">Harapan Klinik</h5>
+              </div>
+              <img
+                class="brand d-none d-lg-block"
+                src="assets/images/logo-small.svg"
+                alt="Brand"
+              />
+              <p class="text-white fs-5 mt-5 mt-lg-2">
+                Selamat <strong>Datang Afif</strong>
+              </p>
             </div>
+            <hr />
             <div>
-              <section class="mb-4">
-                <div class="bg-white px-4 px-lg-5 pb-4 pt-5 rounded-4 shadow">
-                  <form action="" method="post">
-                    <div class="input-group input-group mb-3">
-                      <span class="input-group-text bg-white pe-1" id="email">
-                        <i class="fa-solid fa-circle-user"></i>
-                      </span>
-                      <input
-                        type="text"
-                        class="form-control email"
-                        name="email_no_hp"
-                        placeholder="Email / No HP"
-                        aria-describedby="email"
-                        style="border-left: none"
-                      />
-                    </div>
-                    <div class="input-group input-group mb-3">
-                      <span
-                        class="input-group-text bg-white pe-1"
-                        id="password"
+              <section style="margin-bottom: 2.5rem">
+                <div class="d-flex justify-content-center mb-4">
+                  <div class="card w-card rounded-4">
+                    <div class="card-body">
+                      <h5
+                        class="card-title text-center py-2 fs-5 text-green fw-bold"
                       >
-                        <i class="fa-solid fa-lock"></i>
-                      </span>
-                      <input
-                        type="password"
-                        class="form-control password"
-                        name="password"
-                        placeholder="Password"
-                        aria-describedby="password"
-                        style="border-left: none"
-                      />
+                        ANTRIAN SAAT INI
+                      </h5>
+                      <hr />
+                      <p
+                        class="card-text text-center fw-bold text-green num_que py-4"
+                      >
+                        09
+                      </p>
+                      <hr />
+                      <p class="text-center text-green">
+                        <strong>13</strong>&nbsp;Pasien Sedang Antri
+                      </p>
                     </div>
-                    <button
-                      type="button"
-                      class="btn text-white w-100 btn-green-light"
-                    >
-                      <i class="fa-solid fa-arrow-right-to-bracket"></i
-                      >&ensp;Login Sekarang
-                    </button>
-                  </form>
-                  <div class="text-center mt-3">
-                    <a href="#" class="fst-italic text-green fs-0875r fw-medium"
-                      >Lupa Password?</a
-                    >
                   </div>
                 </div>
               </section>
               <section>
-                <div class="d-flex justify-content-center mb-4">
-                  Belum Punya Akun? Ayo&nbsp;<strong
-                    ><a
-                      class="text-decoration-none text-white"
-                      href="register.html"
-                      >Daftar Sekarang</a
-                    ></strong
+                <div class="bg-white p-4 rounded-4">
+                  <h2
+                    class="text-green fw-bold mb-4 text-center"
+                    style="font-size: 1.125rem"
                   >
-                </div>
-                <div class="d-flex justify-content-center">
+                    AMBIL NOMOR ANTRIAN
+                  </h2>
+                  <p class="text-green">
+                    Ambil nomor antrian di sini selama jam operasional klinik<br
+                      class="d-none d-lg-block"
+                    />
+                    dan
+                    <strong>datang sesuai waktu yang ditentukan.</strong>
+                  </p>
                   <div
                     class="green-light gap-3 rounded-4 d-flex justify-content-center align-items-center w-100 py-3"
                   >
@@ -170,8 +154,8 @@
                     <div class="bg-white fw-medium rounded py-1 px-3">
                       <a
                         class="text-decoration-none text-green"
-                        href="register.html"
-                        >Daftar Sekarang</a
+                        href="javascript:void(0)"
+                        >Ambil Antrian</a
                       >
                     </div>
                   </div>
@@ -180,7 +164,10 @@
             </div>
           </div>
         </main>
-        <footer class="d-flex mb-4 justify-content-center">
+        <footer
+          class="d-flex mb-lg-4 justify-content-center"
+          style="margin-bottom: 5rem"
+        >
           <div
             class="d-lg-flex py-3 px-3 justify-content-center green-light rounded-4 w-100 py-2 flex-col gap-1"
           >
@@ -197,6 +184,40 @@
             </p>
           </div>
         </footer>
+      </div>
+    </div>
+    <div class="menu-bottom desktop-hide">
+      <div class="container">
+        <div class="wrapper">
+          <nav>
+            <ul
+              class="d-flex justify-content-around align-items-center list-unstyled"
+              style="margin-top: 10px"
+            >
+              <li class="bg-white rounded-2">
+                <a href="#" class="text-green px-2">
+                  <i class="fa-solid fs-09r fa-house"></i>&ensp;Home
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fs-09r fa-clock-rotate-left"></i
+                  >&ensp;Riwayat
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-regular fs-09r fa-comments"></i>&ensp;Pesan
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-regular fs-09r fa-user"></i>&ensp;Akun
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
     <script
